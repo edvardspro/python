@@ -7,7 +7,7 @@ import binascii
 
 app = Flask(__name__)
 
-SECRET_TOKEN = "super_toks_parole"   # nomaini!
+SECRET_TOKEN = "popkorns_2022"   # nomaini!
 MAC = "AA:BB:CC:DD:EE:FF"            # nomaini uz sava datora MAC
 
 def wake_on_lan(mac):
@@ -41,3 +41,4 @@ def shutdown():
 @app.route("/")
 def home():
     return "PC control server is running"
+
